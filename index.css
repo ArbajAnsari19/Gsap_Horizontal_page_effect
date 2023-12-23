@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#pre_nav{
+    background-color: rgb(164, 237, 231);
+    width: 100%;
+    height: 100vh;
+    padding: 15% 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border: 2px solid red;
+}
+#left{
+    border: 2px solid red;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#right{
+    border: 2px solid red;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(97, 92, 92);
+}
+#page1 h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40vw;
+    white-space: nowrap;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-left: 80px;
+    letter-spacing: -5px;
+    
+}
+#page1 h1::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+  }
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    position: fixed;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    font-size: 60px;
+}
+#nav{
+    display: flex;
+    width:100%;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding: 40px;
+    border-bottom: 1px solid rgb(62, 60, 60);
+}
+#nav h3{
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+#icon{
+    font-size: 60px;
+}
+#nav_main{
+    background-color: rgb(164, 237, 231);
+    display: flex;
+    justify-content: flex-end;
+}
